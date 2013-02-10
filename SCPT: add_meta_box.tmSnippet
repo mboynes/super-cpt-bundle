@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:foos}-&gt;add_meta_box( array(
+	'id' =&gt; '${2:box-id}',
+	'context' =&gt; '${3:normal|advanced|side}',
+	'fields' =&gt; array(
+		'${4:field-name}' =&gt; array($0)
+	)
+) );</string>
+	<key>name</key>
+	<string>SCPT: add_meta_box</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>amb</string>
+	<key>uuid</key>
+	<string>D0CE1A92-6D3C-4AD5-9327-6891E7158726</string>
+</dict>
+</plist>

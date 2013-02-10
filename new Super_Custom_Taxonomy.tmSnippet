@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${5:${1/([^_A-Z0-9]+)|([_A-Z0-9])/(?1:_:\L$2)/gi}s} = new Super_Custom_Taxonomy( '${1:foo}'${2:, '${3:${1/(?:^|([-_]))(\w)/(?1: )\u$2/g}}', '${4:${1/(?:^|([-_]))(\w)/(?1: )\u$2/g}s}'} );$0</string>
+	<key>name</key>
+	<string>new Super_Custom_Taxonomy</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>tax</string>
+	<key>uuid</key>
+	<string>B619E241-27A9-4A2A-B51F-5008ADC906F9</string>
+</dict>
+</plist>

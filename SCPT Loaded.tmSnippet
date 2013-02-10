@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>add_action( 'after_setup_theme', '${1:my_function_name}' );
+function $1() {
+	if ( ! class_exists( 'Super_Custom_Post_Type' ) )
+		return;
+
+	$0
+}</string>
+	<key>name</key>
+	<string>SCPT Loaded</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>scpt</string>
+	<key>uuid</key>
+	<string>23A3F7AF-C0F2-4B04-87E0-7FAC16516676</string>
+</dict>
+</plist>

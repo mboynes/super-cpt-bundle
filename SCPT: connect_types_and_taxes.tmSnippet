@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>connect_types_and_taxes( \$${1:type}, \$${2:tax} );</string>
+	<key>name</key>
+	<string>SCPT: connect_types_and_taxes</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>ctat</string>
+	<key>uuid</key>
+	<string>42CF2131-A9D1-4C33-B859-34F88D4544C8</string>
+</dict>
+</plist>

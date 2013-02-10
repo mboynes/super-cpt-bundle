@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${5:${1/([^_A-Z0-9]+)|([_A-Z0-9])/(?1:_:\L$2)/gi}s} = new Super_Custom_Post_Type( '${1:foo}'${2:, '${3:${1/(?:^|([-_]))(\w)/(?1: )\u$2/g}}', '${4:${1/(?:^|([-_]))(\w)/(?1: )\u$2/g}s}'} );$0</string>
+	<key>name</key>
+	<string>new Super_Custom_Post_Type</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>cpt</string>
+	<key>uuid</key>
+	<string>E674E865-A7E6-45D3-9D21-50937A53161A</string>
+</dict>
+</plist>

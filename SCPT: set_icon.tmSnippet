@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:foos}-&gt;set_icon( '${2:show_thumbnails}' );$0</string>
+	<key>name</key>
+	<string>SCPT: set_icon</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>icon</string>
+	<key>uuid</key>
+	<string>E2A4BCD9-C7FD-45B9-82D8-D9A11D17063A</string>
+</dict>
+</plist>
