@@ -19,21 +19,21 @@ Add this to your Sublime Packages directory.
 
 ## Instructions
 
-This plugin gives you a few snippets for working with the SuperCPT WordPress plugin.
+This plugin gives you a few snippets for working with the SuperCPT WordPress plugin. Each one is a tab trigger.
 
-* `scpt`
+* `scpt`:
   Add a filter for `after_setup_theme` and check to see if this plugin exists
-* `cpt`
+* `cpt`:
   Add a new Super Custom Post Type
-* `tax`
+* `tax`:
   Add a new Super Custom Taxonomy
-* `amb`
+* `amb`:
   Add a new meta box for your Super Custom Post Type
-* `ctat`
+* `ctat`:
   Connect one or more Post Types with one or more Taxonomies
-* `icon`
+* `icon`:
   Add an icon for your Custom Post Type
-* `cpm`
+* `cpm`:
   Create a new Super_Custom_Post_Meta object around an existing post type (e.g. posts)
 
 
